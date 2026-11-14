@@ -1,0 +1,12 @@
+2026-11-10 21:41:36 | -               | INFO  | Server listening on port 9806 (default policy: ALLOW)
+2026-11-10 21:41:36 | -               | INFO  | Rule loaded: 1 | KEYWORD | BLOCKED         | BLOCK | enabled
+2026-11-10 21:41:36 | -               | INFO  | Rule loaded: 2 | IP      | 192.168.1.20    | BLOCK | enabled
+2026-11-10 21:41:36 | -               | INFO  | Rule loaded: 3 | IP      | 127.0.0.1       | ALLOW | enabled
+2026-11-10 21:41:36 | 192.168.1.180   | ALLOW | No rule matched; default policy is ALLOW
+2026-11-10 21:41:36 | 192.168.1.180   | INFO  | Connection error: Connection reset
+2026-11-10 21:41:36 | 192.168.1.180   | INFO  | Client disconnected
+2026-11-10 21:41:36 | 192.168.1.180   | ALLOW | No rule matched; default policy is ALLOW
+2026-11-10 21:41:36 | 192.168.1.180   | ALLOW | No rule matched; default policy is ALLOW | "﻿Hello from the network"
+2026-11-10 21:41:36 | 192.168.1.180   | BLOCK | Message contains keyword 'BLOCKED' (prohibited) | "This message contains BLOCKED"
+2026-11-10 21:41:36 | 192.168.1.180   | ALLOW | No rule matched; default policy is ALLOW | "Show my status"
+2026-11-10 21:41:36 | 192.168.1.180   | INFO  | Client disconnected

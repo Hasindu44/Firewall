@@ -1,0 +1,4 @@
+2026-11-08 02:22:34 | -               | INFO  | Server listening on port 9806 (default policy: ALLOW)
+2026-11-08 02:22:34 | -               | INFO  | Rule loaded: 1 | KEYWORD | BLOCKED         | BLOCK | enabled
+2026-11-08 02:22:34 | -               | INFO  | Rule loaded: 2 | IP      | 192.168.1.20    | BLOCK | enabled
+2026-11-08 02:22:34 | -               | INFO  | Rule loaded: 3 | IP      | 127.0.0.1       | ALLOW | enabled
